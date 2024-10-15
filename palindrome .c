@@ -11,9 +11,7 @@ while(num>0)
  rev=rev*10+r;
  num=num/10;
  }
- if(num>=0&&num<=9)
- printf("invalid input");
- else if(i==rev)
+ if(i==rev)
  {
  printf("\n%d is a palindrome number",i);
  }
